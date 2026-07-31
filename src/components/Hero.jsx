@@ -73,10 +73,11 @@ const Hero = () => {
           </div>
 
           {/* Heading - Fokus ke Platform */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-none mb-4 text-orange-400">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-none mb-4">
             Belajar
             <br />
-            <span className="text-rose-500">Web Development</span>
+            <span
+              >Web Development</span>
           </h1>
           
           {/* Subheading */}
@@ -90,26 +91,6 @@ const Hero = () => {
             Dari dasar hingga mahir, semua materi disusun terstruktur dengan 
             project nyata.
           </p>
-
-          {/* Primary CTA - Fokus ke mulai belajar */}
-          <div className="flex flex-wrap justify-center gap-3 mb-10">
-            <a
-              href="#courses"
-              className="group inline-flex items-center space-x-2 px-6 py-3 bg-white text-[#0a0a0a] rounded-full font-semibold text-sm hover:shadow-[0_0_30px_rgba(255,255,255,0.1)] hover:scale-105 active:scale-95 transition-all duration-300 cursor-pointer"
-            >
-              <FaGraduationCap className="group-hover:rotate-6 transition-transform duration-300" />
-              <span>Mulai Belajar</span>
-              <FiExternalLink className="text-xs opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all duration-300" />
-            </a>
-            
-            <a
-              href="#about"
-              className="group inline-flex items-center space-x-2 px-6 py-3 border border-white/20 text-white/60 rounded-full font-semibold text-sm hover:bg-white/10 hover:border-white/40 hover:text-white hover:scale-105 active:scale-95 transition-all duration-300 cursor-pointer"
-            >
-              <FiBookOpen className="group-hover:rotate-6 transition-transform duration-300" />
-              <span>Lihat Kurikulum</span>
-            </a>
-          </div>
 
           {/* Quick Stats - Fokus ke platform */}
           <div className="flex items-center justify-center space-x-8 mb-8">
