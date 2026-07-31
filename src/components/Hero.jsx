@@ -117,7 +117,7 @@ const Hero = () => {
               href="https://github.com/galvinal-227/"
               target="_blank"
               rel="noopener noreferrer"
-              className="group p-2 border border-white rounded-full text-white/30 hover:text-white hover:border-white hover:bg-white transition-all duration-300 cursor-pointer"
+              className="group p-2 border border-white rounded-full text-white hover:text-white hover:border-white hover:bg-white transition-all duration-300 cursor-pointer"
               title="GitHub"
             >
               <FiGithub className="text-lg group-hover:scale-110 transition-transform duration-300" />
