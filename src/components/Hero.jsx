@@ -142,19 +142,6 @@ const Hero = () => {
             <span className="text-xs text-white">learnbygwd@gmail.com</span>
           </div>
         </div>
-
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
-          <button
-            onClick={scrollToContent}
-            className="group flex flex-col items-center space-y-2 text-white hover:text-white transition-colors duration-300 cursor-pointer"
-          >
-            <span className="text-[10px] tracking-[0.2em] uppercase opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              Explore
-            </span>
-            <FiArrowDown className="text-xl animate-bounce group-hover:animate-none group-hover:translate-y-1 transition-transform duration-300" />
-          </button>
-        </div>
       </div>
     </section>
   );
