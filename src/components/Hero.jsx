@@ -112,12 +112,12 @@ const Hero = () => {
 
           {/* Social & Contact - Tetap ada untuk founder */}
           <div className="flex items-center justify-center space-x-4">
-            <span className="text-xs text-white/20">Founder:</span>
+            <span className="text-xs text-white">Founder:</span>
             <a
               href="https://github.com/galvinal-227/"
               target="_blank"
               rel="noopener noreferrer"
-              className="group p-2 border border-white/10 rounded-full text-white/30 hover:text-white hover:border-white/30 hover:bg-white/5 transition-all duration-300 cursor-pointer"
+              className="group p-2 border border-white rounded-full text-white/30 hover:text-white hover:border-white hover:bg-white transition-all duration-300 cursor-pointer"
               title="GitHub"
             >
               <FiGithub className="text-lg group-hover:scale-110 transition-transform duration-300" />
@@ -126,14 +126,14 @@ const Hero = () => {
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="group p-2 border border-white/10 rounded-full text-white/30 hover:text-white hover:border-white/30 hover:bg-white/5 transition-all duration-300 cursor-pointer"
+              className="group p-2 border border-white rounded-full text-white hover:text-white hover:border-white hover:bg-white transition-all duration-300 cursor-pointer"
               title="LinkedIn"
             >
               <FiLinkedin className="text-lg group-hover:scale-110 transition-transform duration-300" />
             </a>
             <a
               href="mailto:learnbygwd@gmail.com"
-              className="group p-2 border border-white/10 rounded-full text-white/30 hover:text-white hover:border-white/30 hover:bg-white/5 transition-all duration-300 cursor-pointer"
+              className="group p-2 border border-white rounded-full text-white hover:text-white hover:border-white hover:bg-white transition-all duration-300 cursor-pointer"
               title="Email"
             >
               <FiMail className="text-lg group-hover:scale-110 transition-transform duration-300" />
