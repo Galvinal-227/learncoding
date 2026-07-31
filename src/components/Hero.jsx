@@ -138,8 +138,8 @@ const Hero = () => {
             >
               <FiMail className="text-lg group-hover:scale-110 transition-transform duration-300" />
             </a>
-            <span className="text-xs text-white/20">|</span>
-            <span className="text-xs text-white/20">learnbygwd@gmail.com</span>
+            <span className="text-xs text-white">|</span>
+            <span className="text-xs text-white">learnbygwd@gmail.com</span>
           </div>
         </div>
 
@@ -147,7 +147,7 @@ const Hero = () => {
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
           <button
             onClick={scrollToContent}
-            className="group flex flex-col items-center space-y-2 text-white/30 hover:text-white/60 transition-colors duration-300 cursor-pointer"
+            className="group flex flex-col items-center space-y-2 text-white hover:text-white transition-colors duration-300 cursor-pointer"
           >
             <span className="text-[10px] tracking-[0.2em] uppercase opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               Explore
