@@ -33,7 +33,7 @@ const Logo = ({ size = 'default', variant = 'full' }) => {
             width="38"
             height="38"
             rx="10"
-            className="stroke-white fill-none"
+            className="stroke-white fill-black"
             strokeWidth="1.5"
           />
           {/* Huruf G */}
